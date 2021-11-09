@@ -3,8 +3,6 @@ import {WebView} from 'react-native-webview';
 
 const RemitaPaymentGateway = () =>{
 
-let imagePath = { uri: 'https://remitademo.net/payment/v1/remita-pay-inline.bundle.js'}; 
-
 const remitaCheckout = `<!DOCTYPE html>
 <html lang="en">
 <header><meta name="viewport" content="initial-scale=1.0" /></header>
@@ -12,7 +10,7 @@ const remitaCheckout = `<!DOCTYPE html>
 <script>
 function makePayment() 
 {
-var rrr = '270008253298'; //rrr 
+var rrr = '220008254064'; //rrr 
 
 var paymentEngine = RmPaymentEngine.init({
 key:'QzAwMDAzNTQ0MDh8Nzg2Mzc0MTY1MnxhNjBlOTRjNTk0MjU3OTJlYjA1YjQzNGY0YzAyMTA1YWFhNzRiZGM2MzViZTIwMzY2ZTAxMzQyZDNhYWZiNGUxMDVjNTRkMDNmMjBkZjY4ZGYzYzdmMmY4ODU5YzNiOTk2OGI3MmFiODQ3NTUyNTYyNmVhYTQ2NDFjYmUwNTE5NA==',
